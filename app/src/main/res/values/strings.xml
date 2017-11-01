@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">In Class 2a</string>
+    <string name="label_for_meters">Meters:</string>
+    <string name="meter_label">Meters:</string>
+    <string name="enter_value_label">Enter your value</string>
+    <string name="result_label">Result:</string>
+    <string name="result_input_label" />
+    <string name="to_inches_label">To inches</string>
+    <string name="to_feet_button">To Feet</string>
+    <string name="to_inches_button">To Inches</string>
+    <string name="to_miles_button">To Miles</string>
+    <string name="clear_all_button">Clear All</string>
+    <string name="meters_label">Meters:</string>
+    <string name="input_distance_field">Enter distance</string>
+    <string name="result_body_label">Result:</string>
+    <string name="feet_button">To feet</string>
+    <string name="miles_button">to miles</string>
+    <string name="the_clear_all_button">clear all</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/meters_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/meters_label"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/enter_distance_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/meters_label"
+        android:layout_alignBottom="@+id/meters_label"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/meters_label"
+        android:layout_toRightOf="@+id/meters_label"
+        android:ems="10"
+        android:hint="@string/input_distance_field"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/result_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/meters_label"
+        android:layout_alignStart="@+id/meters_label"
+        android:layout_below="@+id/enter_distance_label"
+        android:layout_marginTop="31dp"
+        android:text="@string/result_body_label"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/the_inches_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/enter_distance_label"
+        android:layout_marginTop="129dp"
+        android:text="@string/to_inches_button" />
+
+    <Button
+        android:id="@+id/the_feet_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/the_inches_button"
+        android:layout_marginTop="13dp"
+        android:text="@string/feet_button" />
+
+    <Button
+        android:id="@+id/the_to_miles_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/the_feet_button"
+        android:layout_marginTop="14dp"
+        android:text="@string/miles_button" />
+
+    <Button
+        android:id="@+id/the_clear_all_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/the_to_miles_button"
+        android:layout_marginTop="13dp"
+        android:text="@string/the_clear_all_button" />
+</RelativeLayout>
